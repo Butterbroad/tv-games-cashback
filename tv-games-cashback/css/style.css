@@ -274,9 +274,9 @@ h6 {
   width: 100%;
   height: 100%;
   z-index: 1;
-  -webkit-transform-origin: 68.5% 50%;
-      -ms-transform-origin: 68.5% 50%;
-          transform-origin: 68.5% 50%;
+  -webkit-transform-origin: 69% 49%;
+      -ms-transform-origin: 69% 49%;
+          transform-origin: 69% 49%;
   -webkit-animation: wheelRotate 20s ease infinite;
           animation: wheelRotate 20s ease infinite;
 }
@@ -561,6 +561,6 @@ h6 {
 }
 
 .btn_main:hover {
-  -webkit-box-shadow: 0px 2.89655px 25px rgba(248, 1, 1, 0.5);
-          box-shadow: 0px 2.89655px 25px rgba(248, 1, 1, 0.5);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 20px 0px #a20909;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 20px 0px #a20909;
 }
