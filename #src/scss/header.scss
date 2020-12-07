@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 3;
+  // .header__wrapper
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .header__logo
+
+  &__logo {
+    max-width: 190px;
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  // .header__socials
+
+  &__socials {
+  }
+}
+.socials {
+  display: flex;
+  align-items: center;
+  // .socials__link
+
+  &__link {
+    max-width: 21.37px;
+    margin-right: 22px;
+    &:last-child {
+      margin-right: 0;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
