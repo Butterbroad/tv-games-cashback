@@ -63,7 +63,11 @@
       }
       @media (max-width: 768px) {
         min-width: 1968px;
-        left: -85%
+        left: -85%;
+        transform-origin: 68% center;
+      }
+      @media (max-width: 640px) {
+        transform-origin: 68% center;
       }
       @media (max-width: 639px) {
         min-width: 1377px;

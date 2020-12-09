@@ -1234,6 +1234,9 @@ h6 {
   .hero__img_wheel {
     min-width: 1968px;
     left: -85%;
+    -webkit-transform-origin: 68% center;
+        -ms-transform-origin: 68% center;
+            transform-origin: 68% center;
   }
 
   .hero__img_smoke {
@@ -1254,6 +1257,12 @@ h6 {
 }
 
 @media (max-width: 640px) {
+  .hero__img_wheel {
+    -webkit-transform-origin: 68% center;
+        -ms-transform-origin: 68% center;
+            transform-origin: 68% center;
+  }
+
   .hero__img_girl {
     min-width: 560px;
     right: -30%;
