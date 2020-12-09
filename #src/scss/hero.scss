@@ -659,4 +659,23 @@
       line-height: 27px;
     }
   }
+
+  // .btn_modal
+
+  &_modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 245px;
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    transform: skew(-10deg);
+    background: #00BB1C;
+    box-shadow: 0px 6.70011px 18.8821px rgba(0, 124, 31, 0.8);
+    font-family: "Gilroy-Black", sans-serif;
+  }
 }
